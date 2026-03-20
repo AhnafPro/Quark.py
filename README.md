@@ -20,7 +20,6 @@
 
 ###### FAQ
 - Can I make apps for Linux and Mac too? Ans: For now it's not possible but I will consider in future.
-- Why are icons are not appearing in the app? Ans: Theres some known issue about that, I will try patching it in next version.
 - How small is it in file size compared to other frameworks? Ans: Quark.py apps are about 60% more smaller than other framework apps.
 
 ###### How to use:
