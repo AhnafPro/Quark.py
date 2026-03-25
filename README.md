@@ -25,7 +25,7 @@
 - Will it work across all Windows OS? Ans: You must have a well-updated version of Windows 10/11 with latest Webview2 (comes with Edge).
 
 ###### How to use:
-1. Download the project or run '''pip install quarkdotpy'''
+1. Download the project or run 'pip install quarkdotpy'
 2. To initiate the project run -> pip install -r requirements.txt
 3. Edit the codes inside the /web directory according to your needs.
 4. Run this to build your .exe app -> python -m PyInstaller --onefile --noconsole --name "name of your app" --clean --add-data "web;web" quark.py --icon "icon.ico"
