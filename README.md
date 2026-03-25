@@ -1,5 +1,5 @@
 # Quark.py
-[![PyPI version](https://badge.fury.io/py/quarkpy.svg)](https://pypi.org/project/quarkdotpy/)
+[![PyPI version](https://badge.fury.io/py/quarkdotpy.svg)](https://pypi.org/project/quarkdotpy/)
 
 #### Quark.py is a lightweight Python framework for packaging HTML, CSS, and JS codes into simple desktop apps.
 
