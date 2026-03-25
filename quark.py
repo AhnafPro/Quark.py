@@ -1,22 +1,17 @@
-import os
-import sys
+import webview
 
-add_data = f"web{os.pathsep}web"
-command = [
-    sys.executable,
-    "-m",
-    "PyInstaller",
-    "--onedir",
-    "--windowed",
-    "--clean",
-    "--strip",
-    "--add-data",
-    add_data,
-    "main.py"
-]
+if __name__ == "__main__":
+    window = webview.create_window(
+        title="Quark.py",
+        url="web/index.html",
+        width=800,
+        height=620,
+        resizable=True,
+        min_size=(700, 500),
+        background_color="#0d3d55"
+    )
 
-command_str = " ".join(command)
-
-print("Building the app...")
-os.system(command_str)
-print("Done! Check the dist folder")
+    webview.start(
+        gui='edgechromium',
+        debug=False
+    )
