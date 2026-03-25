@@ -33,7 +33,7 @@
 ```bash
    pip install -r requirements.txt
 ```
-3. Edit the files inside the `/web` directory according to your needs.
+3. Edit the files inside the `/web` and `quark.py` according to your needs.
 4. Build your `.exe` app:
 ```bash
    python -m PyInstaller --onefile --noconsole --name "name of your app" --clean --add-data "web;web" quark.py --icon "icon.ico"
