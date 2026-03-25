@@ -13,7 +13,7 @@
 
 ###### Optimization
 1. Caching strategies – App only loads local HTML/CSS/JS without external requests.
-2. Lazy loading – The HTML app is loaded only when the window is created and heavy assets can be loaded on demand later on.
+2. Lazy loading – The HTML codes only load on demand after the window of the app is created.
 3. Reduce memory usage – Minimal dependencies reduce memory usage.
 4. Efficient algorithms – Very simple Python app logic was implemented for fast performance.
 5. Minimize dependencies – Removed useless libraries which helped to reduce the file size a lot.
