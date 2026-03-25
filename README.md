@@ -25,7 +25,7 @@
 - Will it work across all Windows OS? Ans: You must have a well-updated version of Windows 10/11 with latest Webview2 (comes with Edge).
 
 ###### How to use:
-1. Install the package:
+1. Download the Repo or Install the package (Package still under development!):
 ```bash
    pip install quarkdotpy
 ```
