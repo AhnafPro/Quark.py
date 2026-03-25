@@ -24,9 +24,15 @@
 - Will it work across all Windows OS? Ans: You must have a well-updated version of Windows 10/11 with latest Webview2 (comes with Edge).
 
 ###### How to use:
-1. Download or clone the repository:
+1. [Click here to download directly](https://github.com/AhnafPro/Quark.py/archive/refs/heads/main.zip) or clone the repository:
 ```bash
    gh repo clone AhnafPro/Quark.py
+```
+```bash
+  git clone https://github.com/AhnafPro/Quark.py.git
+```
+```bash
+  pip install git+https://github.com/AhnafPro/Quark.py.git
 ```
 2. Install dependencies:
 ```bash
