@@ -1,4 +1,5 @@
 # Quark.py
+[![PyPI version](https://badge.fury.io/py/quarkdotpy.svg)](https://pypi.org/project/quarkdotpy/)
 
 #### Quark.py is a lightweight Python framework for packaging HTML, CSS, and JS codes into simple desktop apps.
 
@@ -24,15 +25,13 @@
 - Will it work across all Windows OS? Ans: You must have a well-updated version of Windows 10/11 with latest Webview2 (comes with Edge).
 
 ###### How to use:
-1. [Click here to download directly](https://github.com/AhnafPro/Quark.py/archive/refs/heads/main.zip) or clone the repository:
+1. [Click here to download directly](https://github.com/AhnafPro/Quark.py/archive/refs/heads/main.zip) or Install the PyPI package:
 ```bash
-   gh repo clone AhnafPro/Quark.py
+   py -m pip install quarkdotpy
 ```
+then,
 ```bash
-  git clone https://github.com/AhnafPro/Quark.py.git
-```
-```bash
-  pip install git+https://github.com/AhnafPro/Quark.py.git
+   py -m py -c "from quarkdotpy.build import create_project; create_project()"
 ```
 2. Install dependencies:
 ```bash
