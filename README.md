@@ -48,5 +48,8 @@
 ```bash
    python -m PyInstaller --onefile --noconsole --name "name of your app" --clean --add-data "web;web" quark.py --icon "icon.ico"
 ```
+###### Benchmark device specs:
+<img width="971" height="530" alt="image" src="https://github.com/user-attachments/assets/fbad2c2b-dae8-4fe7-b51f-e80d43875ddb" />
+OS: Windows 10 Home, 22H2
  <p align="center"> No AI has been used to type any part of the README file. </p>
 
