@@ -48,3 +48,5 @@
 ```bash
    python -m PyInstaller --onefile --noconsole --name "name of your app" --clean --add-data "web;web" quark.py --icon "icon.ico"
 ```
+<center> No AI has been used to type any part of the README file. </center>
+
