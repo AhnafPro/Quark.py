@@ -13,12 +13,14 @@
 - Caching strategies implemented for improved performance.
 - Easy distribution of apps.
 
-###### Optimization
-1. Caching strategies – App only loads local HTML/CSS/JS without external requests.
-2. Lazy loading – The HTML codes only load on demand after the window of the app is created.
-3. Reduce memory usage – Minimal dependencies reduce memory usage.
-4. Efficient algorithms – Very simple Python app logic was implemented for fast performance.
-5. Minimize dependencies – Removed useless libraries which helped to reduce the file size a lot.
+###### Optimizations
+1. Optimize asset sizes: The application bundle was reduced using PyInstaller's binary and size optimization flags.
+   Problem: Normally unoptimized build command looks like this ``` python -m PyInstaller --name "myapp" quark.py ```, which leads to formation of lots of DLLs and tons of dependencies along with the exe.
+   Solution: Using the optimization flags (--clean, --onefile etc.) on the build command fixes it all and slap everything by removing debug symbols, caches, temp files etc. and the finished command looks something like this ``` python -m PyInstaller --onefile --noconsole --name "name of your app" --clean --add-data "web;web" quark.py --icon "icon.ico" ```
+   Proof: Everything turned into a single file and about 45% app size reduction.
+   <img width="148" height="100" alt="Untitled design (69)" src="https://github.com/user-attachments/assets/a9b3117b-05d5-45d7-9462-863e5f045f9c" />
+
+
 
 ###### FAQ
 - Can I make apps for Linux and Mac too? Ans: For now it's not possible but I will consider in future.
