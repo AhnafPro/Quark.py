@@ -28,11 +28,11 @@
 ###### How to use:
 1. [Click here to download directly](https://github.com/AhnafPro/Quark.py/archive/refs/heads/main.zip) or Install the PyPI package:
 ```bash
-   py -m pip install quarkdotpy
+   python -m pip install quarkdotpy
 ```
 then,
 ```bash
-   py -m py -c "from quarkdotpy.build import create_project; create_project()"
+   python -m py -c "from quarkdotpy.build import create_project; create_project()"
 ```
 2. Install dependencies:
 ```bash
