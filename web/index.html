@@ -5,16 +5,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quark.py</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+            padding: 2rem;
+            background-color: #f0f4f8;
+        }
+
+        h1 {
+            font-weight: 800;
+            margin-top: 1rem;
+        }
+
+        .desc {
+            font-weight: 400;
+            margin: 1rem 0;
+        }
+
+        .version {
+            font-weight: 300;
+            margin-bottom: 2rem;
+        }
+
+        img {
+            height: 150px;
+            width: 150px;
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    <center><img style="height: 150px; width: 150px;" src="icon.png"></center>
-    
-    <h1 style="text-align: center;">Quark.py</h1>
-    <p class="desc" style="text-align: center;">Quark.py is a lightweight Python framework for packaging HTML, CSS, and JavaScript projects into optimized desktop applications.</p>
-    <p class="version" style="text-align: center;">v1.0.0</p>
-    <script src="app.js"></script>
+   
+    <img src="icon.png" alt="App Icon" loading="lazy">
+
+    <h1>Quark.py</h1>
+    <p class="desc">Quark.py is a lightweight Python framework for packaging HTML, CSS, and JavaScript projects into optimized desktop applications.</p>
+    <p class="version">v1.0.0</p>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const script = document.createElement("script");
+            script.src = "app.js";
+            script.defer = true;
+            document.body.appendChild(script);
+            console.time("App JS Load");
+            script.onload = () => console.timeEnd("App JS Load");
+        });
+    </script>
 </body>
+
 </html>
