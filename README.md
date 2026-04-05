@@ -26,14 +26,7 @@
 - Will it work across all Windows OS? Ans: You must have a well-updated version of Windows 10/11 with latest Webview2 (comes with Edge).
 
 ###### How to use:
-1. [Click here to download directly](https://github.com/AhnafPro/Quark.py/archive/refs/heads/main.zip) or Install the PyPI package:
-```bash
-   python -m pip install quarkdotpy
-```
-then,
-```bash
-   python -m py -c "from quarkdotpy.build import create_project; create_project()"
-```
+1. [Click here to download directly](https://github.com/AhnafPro/Quark.py/archive/refs/heads/main.zip) or Clone the repo.
 2. Install dependencies:
 ```bash
    pip install -r requirements.txt
