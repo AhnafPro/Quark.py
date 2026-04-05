@@ -2,7 +2,7 @@
 [![PyPI version](https://badge.fury.io/py/quarkdotpy.svg)](https://pypi.org/project/quarkdotpy/1.0.4)
 [demo.webm](https://github.com/user-attachments/assets/6d182faa-b7d5-4a3c-a692-03128e3a1105)
 
-#### Quark.py is a lightweight Python framework made for packaging HTML, CSS, and JS codes into simple very desktop applications.
+#### Quark.py is a super lightweight Python framework made for packaging HTML, CSS, and JS codes into simple very desktop applications.
 
 ###### Why use Quark.py instead of other frameworks like Electron?
 - HTML, CSS and JS packed into desktop apps.
