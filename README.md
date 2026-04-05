@@ -15,9 +15,9 @@
 
 ###### Optimizations
 1. Optimize asset sizes: The application bundle was reduced using PyInstaller's binary and size optimization flags.
-   Problem: Normally unoptimized build command looks like this ``` python -m PyInstaller --name "myapp" quark.py ```, which leads to formation of lots of DLLs and tons of dependencies along with the exe.
-   Solution: Using the optimization flags (--clean, --onefile etc.) on the build command fixes it all and slap everything by removing debug symbols, caches, temp files etc. and the finished command looks something like this ``` python -m PyInstaller --onefile --noconsole --name "name of your app" --clean --add-data "web;web" quark.py --icon "icon.ico" ```
-   Proof: Everything turned into a single file and about 45% app size reduction.
+   - Problem: Normally unoptimized build command looks like this ``` python -m PyInstaller --name "myapp" quark.py ```, which leads to formation of lots of DLLs and tons of dependencies along with the exe.
+   - Solution: Using the optimization flags (--clean, --onefile etc.) on the build command fixes it all and slap everything by removing debug symbols, caches, temp files etc. and the finished command looks something like this ``` python -m PyInstaller --onefile --noconsole --name "name of your app" --clean --add-data "web;web" quark.py --icon "icon.ico" ```
+   - Proof: Everything turned into a single file and about 45% app size reduction.
 
    <img width="592" height="400" alt="Untitled design (70)" src="https://github.com/user-attachments/assets/6a233869-e9b5-46c0-bfee-32b700ea47fe" />
 
