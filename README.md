@@ -23,7 +23,7 @@
 
 2. Lazy loading: Uses a super low code loader screen on app launch and slow transition to the app main content and lazy loads the unseen JS codes until the user clicks or perform any action.
    - Problem: Everything loads at start which utilises resources heavily and certain lazy loading techniques mentioned above can be used to reduce that issue.
-   - Solution: Creating a loader.html to load the app first on low resource and gradually using resource when only required, and JS can be easily loaded later only when users require it.
+   - Solution: Creating a loader.html to load the app first on low resource and gradually using resource when only required, and JS can be easily loaded later only when users require it. And loading="lazy" was set to lots of HTML tags too.
    - Proof: After optimization, ~29% fewer requests, ~39% smaller transfers, ~44% less resource usage and lot slower content loading.
      Before vs After Optimization:
      
